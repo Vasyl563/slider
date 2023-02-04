@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/reset.css">
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+<!--    fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Viga&display=swap" rel="stylesheet">
+    <!-- Optional Theme Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+                <div class="glide__slide">
+
+                    <img src="./img/1873%201.png" alt="1 photo" class="slider__1">
+
+                    <div class="slider__position">
+                    <h1>OUR VISION</h1>
+                    <h2>DESIGN</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+                    <a class="btn__a" href="!#">Take A Look</a>
+                    </div>
+                    </div>
+                <div class="glide__slide">
+
+                        <img src="./img/3969%201.png" alt="1 photo" class="slider__1">
+
+                    <div class="slider__position">
+                        <h1>OUR VISION</h1>
+                        <h2>MOTION</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+                        <a  href="!#">Take A Look</a>
+                    </div>
+                </div>
+                <div class="glide__slide ">
+                    <img class="slider__1" src="./img/1876.png" alt="3 photo">
+                    <div class="slider__position">
+                        <h1>OUR VISION</h1>
+                        <h2>ENGINE</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+                        <a class="btn__a" href="!#">Take A Look</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="img/Arrow%201.svg" alt=""></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="img/Arrow%202.svg" alt=""></button>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+  const config = {
+    type: 'carousel',
+    perView: 1
+  }
+  new Glide('.glide', config).mount()
+</script>
+</body>
+</html>

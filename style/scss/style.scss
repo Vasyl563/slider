@@ -1,0 +1,57 @@
+@import "media";
+@import "variables";
+
+
+* {
+  color: #fff;
+  font-family: $font_1;
+}
+
+.glide__slide {
+  height: 100vh;
+  h1, h2, p, a {
+    position: relative;
+    padding-left: 88px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  h2 {
+    font-family: $font_2;
+    font-size: 120px;
+    line-height: 128px;
+    margin-bottom: 65px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 600px;
+    margin-bottom: 39px;
+  }
+  a {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  .btn__a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+}
+.slider__1 {
+  position: absolute;
+  z-index: -5;
+}
+.slider__position {
+  margin-top: 25vh;
+}
+
+
+
