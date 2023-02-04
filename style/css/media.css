@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+  .glide__slide {
+    height: 100vh;
+  }
+  .glide__slide h1, .glide__slide h2, .glide__slide p, .glide__slide a {
+    position: relative;
+    padding-left: 50px;
+  }
+  .glide__slide h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .glide__slide h2 {
+    font-size: 80px;
+    margin-bottom: 65px;
+  }
+  .glide__slide p {
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 39px;
+  }
+  .glide__slide a {
+    font-size: 20px;
+  }
+}

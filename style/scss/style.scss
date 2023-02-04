@@ -1,14 +1,14 @@
 @import "media";
 @import "variables";
 
-
 * {
-  color: #fff;
+  color: #ffffff;
   font-family: $font_1;
 }
 
 .glide__slide {
   height: 100vh;
+
   h1, h2, p, a {
     position: relative;
     padding-left: 88px;
@@ -52,6 +52,43 @@
 .slider__position {
   margin-top: 25vh;
 }
+
+
+@media only screen and (max-width: $small) {
+
+
+  .glide__slide {
+    height: 100vh;
+
+    h1, h2, p, a {
+      padding-left: 50px;
+    }
+
+    h1 {
+      font-size: 18px;
+
+    }
+
+    h2 {
+      font-size: 80px;
+      line-height: 128px;
+      margin-bottom: 65px;
+    }
+
+    p {
+      font-size: 16px;
+      max-width: 500px;
+      margin-bottom: 39px;
+    }
+
+    a {
+      font-size: 20px;
+    }
+
+  }
+}
+
+
 
 
 
